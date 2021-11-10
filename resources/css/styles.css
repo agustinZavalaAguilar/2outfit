@@ -6,11 +6,13 @@ html {
 H1 {
     color: whitesmoke;
     font-weight: 500;
+    font-size: 3em;
 }
 
 h4 {
     color: whitesmoke;
     font-weight: 300;
+    font-size: larger;
 }
 /*-------------Logo and navbar-------*/
 
@@ -33,7 +35,7 @@ h4 {
     position: absolute;
     top: 40%;
     text-align: center;
-    background-color: rgba(0,0,0,.63);
+    background-color: rgba(100, 135, 146, 0.699);
     height: 15%;
     align-items: center;
     border-end-end-radius: 10%;
@@ -78,7 +80,7 @@ h4 {
 
 .card-description {
     position: absolute;
-    background: rgba(102, 98, 98, 0.699);
+    background: rgba(100, 135, 146, 0.699);
     width: 75%;
     margin: 10px;
     text-align: center;
