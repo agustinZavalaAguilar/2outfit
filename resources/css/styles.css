@@ -1,9 +1,61 @@
 html {
     font-family: "barlow", Arial, Helvetica, sans-serif;    
+    box-sizing: border-box;
 }
+
+H1 {
+    color: whitesmoke;
+}
+/*-------------Logo and navbar-------*/
+
+.logo {
+    /*border-radius: 2%;*/
+    display: flex;
+    max-width: 100%;
+}
+
+.main-banner {
+   display: flex;
+   justify-content: center;
+   /*background-color: gray;*/
+
+}
+
+.banner-image  {
+    max-width: 100%    
+}
+
+.trending {
+    display: flex;
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    /*background-color: gray;*/
+    background-color: rgba(0,0,0,.63);
+    height: 15%;
+    align-items: center;
+    border-end-end-radius: 10%;
+    border-start-start-radius: 10%;
+    
+    
+}
+
+.trending h1 {
+    /*background-color: black;*/
+    /*opacity: 10%;*/
+    padding: 10px;
+}
+
+/*.trending {
+    position: relative;
+}*/
 
 @media  (max-width: 425px) {
     .logo-desktop {
+        display: none;
+    }
+
+    .navbar {
         display: none;
     }
 }
