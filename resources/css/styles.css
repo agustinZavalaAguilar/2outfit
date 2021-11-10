@@ -13,6 +13,11 @@ h4 {
     color: whitesmoke;
     font-weight: 300;
     font-size: larger;
+    font-family: "Bebas Neue", sans-serif ;
+}
+
+p {
+    font-size: large;
 }
 /*-------------Logo and navbar-------*/
 
@@ -33,7 +38,7 @@ h4 {
 .trending {
     display: flex;
     position: absolute;
-    top: 40%;
+    margin-top: 5%;
     text-align: center;
     background-color: rgba(100, 135, 146, 0.699);
     height: 15%;
@@ -60,6 +65,13 @@ h4 {
     .logo-mobile {
         display: none;
     }
+}
+
+/*-----------Mission & mission quote------------*/
+
+.mission-quote h2 {
+    text-align: center;
+    font-size:xx-large ;
 }
 
 /*------------Products and services section------*/
