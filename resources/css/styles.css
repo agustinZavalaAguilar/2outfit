@@ -98,12 +98,38 @@ p {
     text-align: center;
 }
 
-/*.section-title{
-    text-align: center;
-    position: absolute;
-}*/
-
 .card-img {
     max-width: 90%;
 }
 
+/*----------------Team Section---------*/
+.team-section {
+    background-color: rgba(221, 210, 210, 0.63);
+    margin-top: 7%;
+}
+
+
+.section-title h2 {
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: 10px;
+}
+
+.member-photo img {
+    border-radius: 50%;
+    max-width: 75px;
+}
+
+.member-description h5 {
+    padding-left: 20px;
+}
+
+.team-container {
+    padding: 5%;
+}
+
+.member-card {
+    display: flex;
+    margin: 5%;
+}
