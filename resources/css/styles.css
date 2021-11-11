@@ -131,10 +131,35 @@ p {
     text-align: center;
 }
 
+.card-description h4 {
+    padding: 0 10px;
+}
+
 .card-img {
     max-width: 90%;
 }
 
+@media (min-width: 426px) {
+    
+    .cards-display {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .card {
+        display: flex;
+        justify-content: center;
+        margin: 3%;
+        align-items: end;
+        max-width: 300px;
+    }
+
+    .card-description {
+        max-width: 18%;
+    }
+}
 /*----------------Team Section---------*/
 .team-section {
     background-color: rgba(221, 210, 210, 0.63);
