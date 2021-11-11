@@ -23,7 +23,7 @@ p {
 
 .logo {
     display: flex;
-    max-width: 100%;
+    max-width: 70%;
 }
 
 .main-banner {
@@ -65,7 +65,40 @@ p {
     .logo-mobile {
         display: none;
     }
+
+    .logo-desktop {
+        display: flex;
+        justify-content: center;        
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: gray;
+        padding: 2em;
+        margin: 2em;
+        color: white;
+        font-size: large;
+    }
+
+    .banner-image {
+        width: 1300px;
+        height: 350px;
+        object-fit: cover;
+    }
+
+    .mission {
+        display: flex;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    .mission-description {
+        padding: 1em;
+    }
+
 }
+
 
 /*-----------Mission & mission quote------------*/
 
